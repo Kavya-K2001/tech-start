@@ -109,6 +109,42 @@
     padding-right: 100px;
     box-shadow: 0 0 2px #8697a8;
 }
+
+.centerdiv {
+  position: sticky;
+  float: left;
+  width: 45%;
+  margin-left: 30%;
+  overflow: hidden;
+  padding-bottom: 15%;
+}
+ul{
+  list-style-type: none;
+}
+
+.sidenav ul li a i {
+  float: left;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #5e5eb7;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sidenav ul li a i:last-child {
+  margin-right: 0;
+}
+
+.sidenav ul li:nth-child(2) a i {
+  background: #c72026;
+}
+
+.sidenav ul li:nth-child(3) a i {
+  background: #29a4dd;
+}
+
 .social-icons{
   margin-left: 20px;
   margin-bottom: 20px;
@@ -119,14 +155,31 @@
   padding-top: 50px;
 
 }
-.centerdiv {
-  position: sticky;
-  float: left;
-  width: 45%;
-  margin-left: 30%;
-  overflow: hidden;
-  padding-bottom: 15%;
+.button {
+  border: none;
+  color: white;
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
 }
+.button3 {
+  background-color: #ff1949; 
+  color: white; 
+  border: 2px solid #ff1949;
+}
+
+.button3:hover {
+  background-color: white;
+  color: #ff1949;
+}
+
+
 
 
   
@@ -356,6 +409,5 @@ h3{
   margin-top: 40px;
   
 }
-
 
 
