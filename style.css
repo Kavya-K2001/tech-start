@@ -225,6 +225,13 @@ ul{
 #name:hover{
   color: #ff1949;
 }
+#story{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #777;
+    margin: 20px;
+}
 .rsidenav .search-container .sb {
   float: right;
   padding: 14px 10px;
